@@ -1,17 +1,11 @@
 //Import
-import Sound from 'react-native-sound';
 
 //Action
 
 const START_TIMER = 'START_TIMER';
 const RESTART_TIMER = 'RESTART_TIMER';
 const ADD_SECONDS = 'ADD_SECONDS';
-const sound = new Sound('sounds/analog-watch-alarm_daniel-simion.mp3', Sound.MAIN_BUNDLE, (error) => {
-    if(error) {
-        console.log('failed to load the sound', error);
-        return;
-    }
-})
+
 
 //Action Creator
 
