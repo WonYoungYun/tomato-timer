@@ -35,7 +35,7 @@ function addSecond() {
 
 //Reducer
 
-const TIMER_DURATION = 3;
+const TIMER_DURATION = 1500;
 
 const initialState = {
     isPlaying: false,
